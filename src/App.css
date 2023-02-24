@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.sidebar {
+  background: #1976d2;
+  height: calc(100vh - 65px);
+  width: 250px;
+  color: #ffffff;
+}
+
+/* Dashboard Blocks */
+.dashboard-block-wrap .dashboard-block {
+  /* padding: 10px; */
+  margin-bottom: 15px;
+}
+.dashboard-block-wrap .dashboard-block .dashboard-block-inner {
+  background: #efefef;
+  border-radius: 5px;
+  border: 1px solid #efefef;
+  padding: 10px 15px;
+}
+.dashboard-block-wrap .dashboard-block > div {
+  font-weight: 700;
+}
+.dashboard-block-wrap .dashboard-block > div:first-child {
+  font-size: 14px;
+}
+.dashboard-block-wrap .dashboard-block > div:last-child {
+  font-size: 12px;
+}
+
+.profile-picture {
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 5px;
+}
+.field-error {
+  color: red;
+}

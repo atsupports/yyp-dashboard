@@ -1,0 +1,35 @@
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 500px;
+  height: 440px;
+}
+
+.spinner {
+  height: 14rem;
+  width: 14rem;
+  border: 10px solid rgb(185, 236, 244);
+  border-left: 10px solid rgb(23, 192, 217);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin infinite 1.5s linear;
+}
+
+.spinner-text {
+  position: absolute;
+  font-size: 14px;
+  color: rgb(54, 54, 54);
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}

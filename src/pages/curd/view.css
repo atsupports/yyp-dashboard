@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.body {
+  background-color: #169bae;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  height: 100vh;
+}
+
+.card {
+  width: 380px;
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: #d1f2f7;
+  position: relative;
+  height: 370px;
+}
+
+.upper {
+  height: 100px;
+}
+
+.upper img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.user {
+  position: relative;
+}
+
+.profile img {
+  height: 80px;
+  width: 80px;
+  margin-top: 2px;
+}
+
+.profile {
+  position: absolute;
+  top: -50px;
+  left: 38%;
+  height: 90px;
+  width: 90px;
+  border: 3px solid #fff;
+  font-family: "Nunito", sans-serif;
+  border-radius: 50%;
+}
+.stats span {
+  font-size: 29px;
+  font-family: "Nunito", sans-serif;
+}
+
+/* second screen */
+
+.panel-card {
+  width: 60%;
+}
+
+.profile-info .panel-footer ul li a {
+  color: #7a7a7a;
+}
+
+.bio-graph-heading {
+  background: #fbc02d;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  padding: 40px 110px;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.bio-graph-info {
+  color: #89817e;
+  font-family: "Nunito", sans-serif;
+}
+
+.my-row-class {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bio-row {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dynamic_text {
+  width: 100px;
+  display: inline-block;
+  font-family: "Nunito", sans-serif;
+}
+.h1_class {
+  margin-left: 30px;
+  font-family: "Nunito", sans-serif;
+}
+.p1_class {
+  margin-right: 30px;
+  font-family: "Nunito", sans-serif;
+}
+.my_bio {
+  text-align: center;
+  margin: 10px;
+  font-family: "Nunito", sans-serif;
+}
+
+.mb-0 {
+  font-family: "Nunito", sans-serif;
+}
+.my_text_Follows {
+  font-family: "Nunito", sans-serif;
+}
